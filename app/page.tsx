@@ -178,7 +178,7 @@ const differentiators = [
   "Built for Turkey’s missing middle",
 ];
 
-function SectionHeading({ eyebrow, title, description }) {
+function SectionHeading({ eyebrow, title, description }: { eyebrow: string; title: string; description: string }) {
   return (
     <div className="max-w-3xl space-y-3">
       <Badge variant="secondary" className="rounded-full px-4 py-1 text-xs tracking-wide">
